@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.Windows.WinmdGenerator/0.54.44-preview">
+    <PropertyGroup Label="Globals">
+        <OutputWinmd>repro.winmd</OutputWinmd>
+        <WinmdVersion>255.255.255.255</WinmdVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <Partition Include="repro.cpp">
+            <TraverseFiles>repro.h</TraverseFiles>
+            <Namespace>Repro</Namespace>
+        </Partition>
+    </ItemGroup>
+</Project>
